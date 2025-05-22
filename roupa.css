@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color:yellow;
+    color: #333;
+}
+
+head {
+    background-color: #222;
+    color:white
+}
+
+.camisa {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+.imagem img{
+    max-width: 350px;
+    border-radius: 8px;
+}
+.valor{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.valor.bruto{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.pix {
+    color: green;
+    font-size: 0.9rem;
+}
+.tamanho {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
