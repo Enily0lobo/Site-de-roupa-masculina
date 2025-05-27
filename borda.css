@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 2px solid #ADD8E6;
+  height: 60px;
+}
+
+.loja {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: 2px;
+  color: #2c3e50;
+}
