@@ -7,7 +7,7 @@
     <style>
       body{
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #e7c7c7;
             padding: 20px;
         }
         .form-container {
@@ -30,7 +30,7 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #655fbd;
             color: white;
             padding: 12px;
             border: none;
@@ -40,7 +40,7 @@
             font-size: 16px;
         }
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #74539b;
         }
         h2 {
             text-align: center;
