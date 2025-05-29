@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+/* CABEÇALHO */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 2px solid #ADD8E6;
+  height: 60px;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: 2px;
+  color: #2c3e50;
+}
+
+.perfil-imagem, .carrinho-imagem {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transition: opacity 0.3s;
+}
+
+.perfil-imagem:hover,
+.carrinho-imagem:hover {
+  opacity: 0.7;
+}
+
+/* Conteúdo principal */
+.camisa {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.imagem img {
+  max-width: 350px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.imagem img:hover {
+  transform: scale(1.05);
+}
+
+.valor {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.valor-bruto {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.PIX {
+  color: green;
+  font-size: 0.9rem;
+}
+
+.tamanho select {
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+/* Botão de compra */
+.comprar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.comprar:hover {
+  background-color: #1a252f;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .camisa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .perfil-imagem, .carrinho-imagem {
+    width: 40px;
+    height: 40px;
+  }
+
+  .imagem img {
+    max-width: 90vw;
+  }
+
+  .valor {
+    text-align: center;
+  }
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: #444;
+  transition: background-color 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #f2f2f2;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+/* Ícones simulados com Unicode */
+.hanger::before {
+  content: "👚"; /* ou "🧥", "👕", etc. */
+}
+
+.ruler::before {
+  content: "📏";
+}
