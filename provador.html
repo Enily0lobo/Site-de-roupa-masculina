@@ -2,33 +2,47 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Provador Virtual</title>
-  <link rel="stylesheet" href="provador.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Medidas</title>
+  <link rel="stylesheet" href="medidas.css">
 </head>
 <body>
-  <div class="main-container">
-    <div class="image-container">
-      <img src="preta.jpg" alt="Modelo provador virtual">
-    </div>
-    <div class="form-container">
-      <h2>Bem-vindo ao Provador Virtual</h2>
-      <p>Preencha os detalhes para experimentar este produto.</p>
-      <form>
-        <div class="form-group">
-          <label for="altura">Altura</label>
-          <input type="number" id="altura" placeholder="cm">
-        </div>
-        <div class="form-group">
-          <label for="peso">Peso</label>
-          <input type="number" id="peso" placeholder="kg">
-        </div>
-        <div class="form-group">
-          <label for="idade">Idade</label>
-          <input type="number" id="idade" placeholder="anos">
-        </div>
-        <button type="submit">Continuar</button>
-      </form>
-    </div>
+  <div class="container">
+    <img src="https://img.freepik.com/fotos-gratis/homem-musculoso-medindo-seu-biceps-com-fita-metrica_107870-33.jpg?size=626&ext=jpg" alt="camisa escolhida">
+    <h2>Compare as medidas com esta tabela.</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>TAMANHO</th>
+          <th>TÓRAX (cm)</th>
+          <th>CINTURA (cm)</th>
+          <th>QUADRIL (cm)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>P</td>
+          <td>80-84</td>
+          <td>76-80</td>
+          <td>86-90</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>84-92</td>
+          <td>72-76</td>
+          <td>94-98</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td>96-100</td>
+          <td>92-96</td>
+          <td>102-106</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="medidas">Medidas em centímetros (cm)</div>
   </div>
 </body>
 </html>
