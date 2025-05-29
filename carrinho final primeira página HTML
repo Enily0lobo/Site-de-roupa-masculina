@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrinho De Compra</title>
+  <link rel="stylesheet" href="carrinho.css">
+</head>
+
+<body>
+  <div class="carrinho-container">
+    
+    <!-- Imagem do Produto -->
+    <div class="imagem-produto"></div>
+
+    <!-- Informações e Formulário -->
+    <div class="info-produto">
+
+      <!-- Produto -->
+      <section id="Produto">
+        <h2>PRODUTO: CAMISA BRANCA FUTUREFORM</h2>
+      </section>
+
+      <!-- Preço -->
+      <section>
+        <p>Preço:R$ 199,99</p>
+      </section>
+
+      <!-- Formulário -->
+      <form method="post" action="segundapagina.html">
+
+        <!-- Tamanho Selecionado -->
+        <section>
+          <label for="tamanho">Tamanho Selecionado:</label>
+          <select id="tamanho" name="tamanho">
+            <option value="P">P</option>
+            <option value="M">M</option>
+            <option value="G">G</option>
+          </select>
+        </section>
+
+        <!-- Forma de Pagamento -->
+        <section>
+          <label for="pagamento">Forma de Pagamento:</label>
+          <select id="pagamento" name="pagamento">
+            <option value="PIX">PIX</option>
+            <option value="Dinheiro">Dinheiro</option>
+            <option value="Cartão">Cartão (até 10x sem juros)</option>
+            <option value="Transferência">Transferência</option>
+          </select>
+        </section>
+
+        <!-- Botão -->
+        <section>
+          <input type="submit" value="Finalizar Compra" />
+        </section>
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>
