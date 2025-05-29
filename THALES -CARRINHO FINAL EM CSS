@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.carrinho-container {
+  display: flex;
+  background-color: #28272f;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-produto {
+  flex: 1;
+  background-image: url('https://www.insiderstore.com.br/cdn/shop/files/1_bf2d37fa-a991-4560-8553-112653dde003.png?v=1748299357&width=600');
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
+.info-produto {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+}
+
+#Produto h2 {
+  font-size: 26px;
+  color: #28272f;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #28272f;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #181717;
+;
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #8d8989;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .carrinho-container {
+    flex-direction: column;
+  }
+
+  .imagem-produto {
+    min-height: 300px;
+  }
+
+  .info-produto {
+    padding: 20px;
+  }
+}
