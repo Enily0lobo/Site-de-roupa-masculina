@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(135deg, #ffffff, #e6e6e6);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.mensagem {
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid #181717;
+  transition: transform 0.3s ease;
+}
+
+.mensagem:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #181717;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
