@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
   color: #333;
 }
-/* CABEÇALHO FIXO */
+
 .header {
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ body {
   font-weight: bold;
   font-family: 'Times New Roman', serif;
   letter-spacing: 2px;
-  color: #4977a5;
+  color: #ffffff;
 }
 
 .perfil-imagem, .carrinho-imagem {
@@ -43,7 +43,6 @@ body {
   opacity: 0.7;
 }
 
-/* Conteúdo principal */
 .camisa {
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +84,6 @@ body {
   padding: 0.3rem;
 }
 
-/* Botão de compra */
 .comprar {
   background-color: #2c3e50;
   color: white;
@@ -95,12 +93,12 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none;
 }
 .comprar:hover {
   background-color: #1a252f;
 }
 
-/* Rodapé */
 .rodape {
   text-align: center;
   padding: 1rem;
@@ -108,7 +106,6 @@ body {
   color: #888;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .camisa {
     flex-direction: column;
@@ -159,9 +156,8 @@ body {
   font-size: 20px;
 }
 
-/* Ícones simulados com Unicode */
 .hanger::before {
-  content: "👚"; /* ou "🧥", "👕", etc. */
+  content: "👚";
 }
 
 .ruler::before {
