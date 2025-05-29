@@ -1,46 +1,48 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #fff;
-  color: #333;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Medidas</title>
+  <link rel="stylesheet" href="medidas.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://img.freepik.com/fotos-gratis/homem-musculoso-medindo-seu-biceps-com-fita-metrica_107870-33.jpg?size=626&ext=jpg" alt="camisa escolhida">
+    <h2>Compare as medidas com esta tabela.</h2>
 
-.container {
-  max-width: 300px;
-  margin: 0 auto;
-}
+    <table>
+      <thead>
+        <tr>
+          <th>TAMANHO</th>
+          <th>TÓRAX (cm)</th>
+          <th>CINTURA (cm)</th>
+          <th>QUADRIL (cm)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>P</td>
+          <td>80-84</td>
+          <td>76-80</td>
+          <td>86-90</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>84-92</td>
+          <td>72-76</td>
+          <td>94-98</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td>96-100</td>
+          <td>92-96</td>
+          <td>102-106</td>
+        </tr>
+      </tbody>
+    </table>
 
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-}
-
-h2 {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-th, td {
-  padding: 12px;
-  border: 1px solid #ddd;
-}
-
-th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-.medidas {
-  font-size: 0.9em;
-  color: #666;
-}
+    <div class="medidas">Medidas em centímetros (cm)</div>
+  </div>
+</body>
+</html>
